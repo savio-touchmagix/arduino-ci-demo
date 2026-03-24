@@ -6,7 +6,7 @@ void setup() {
   pinMode(ledPin, OUTPUT);
   Serial.begin(9600);
 
-  int result = addNumbers(2, 3);
+  int result = addNumbers(2, "wrong");
   Serial.println(result); // should print 5
 }
 
